@@ -150,6 +150,7 @@ TH {
 }
 .tel_text {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .tel_nomer img {
