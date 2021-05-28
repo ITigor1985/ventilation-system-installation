@@ -262,6 +262,7 @@ TH {
   }
   .tel_text {
     text-transform: lowercase;
+    text-align: center;
     align-self: center;
     font-size: 22px;
   }
