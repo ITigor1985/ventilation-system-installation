@@ -1,0 +1,272 @@
+.cont_dim {
+  max-width: 900px;
+  margin: auto;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+.why {
+  text-align: center;
+}
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.cont_dim p {
+  text-indent: 20px;
+  color: black;
+}
+.advantages .advantages_item {
+  border-left: #fabe58 solid 5px;
+  border-right: #fabe58 solid 5px;
+  box-sizing: border-box;
+  max-width: 30%;
+  margin: 10px 10px;
+  padding: 10px 10px 0px;
+  font-size: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.summary {
+  background-color: grey;
+  padding: 5px 0;
+  color: white;
+}
+.summary ul {
+  padding: 0 20px;
+  line-height: 1.5em;
+}
+
+.summary ul li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #fabe58;
+}
+.summary h4 {
+  text-indent: 20px;
+}
+
+.vozgoranie {
+  width: 100%;
+}
+
+.item_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #fabe58 dotted 1px;
+  font-size: 5px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fas {
+  font-size: 16px;
+  color: #fabe58;
+}
+
+.item_text:hover {
+  font-size: 15px;
+  padding: 5px;
+}
+.item_text:focus {
+  font-size: 15px;
+  padding: 5px;
+}
+
+div .item_text:hover .fas {
+  opacity: 0;
+}
+
+.item_image {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin: 0px auto 10px;
+  border-radius: 50%;
+}
+.item_image img {
+  background-color: black;
+  padding: 20px;
+}
+.item_header h3 {
+  font-size: 1em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.spravka {
+  font-weight: normal;
+  border: 1px solid black;
+  line-height: 1;
+  padding: 10px 10px 10px;
+  font-style: italic;
+  margin: 10px 0px;
+  background-color: #fabe58;
+  font-family: "Roboto", sans-serif;
+}
+
+TABLE {
+  background: white; /* Цвет фона таблицы */
+  color: white; /* Цвет текста */
+}
+TD,
+TH {
+  background: #fabe58; /* Цвет фона ячеек */
+  padding: 5px; /* Поля вокруг текста */
+  color: black;
+}
+
+.table-container {
+  width: 100%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 0 0 1em;
+}
+
+.tel {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border: 1px solid green;
+  margin-bottom: 10px;
+}
+.tel_text {
+  text-transform: uppercase;
+}
+
+.tel_nomer img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.knok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tel_nomer a {
+  text-decoration: none;
+  color: white;
+}
+
+.knok-summary a {
+  text-decoration: none;
+  color: white;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: 5px;
+  width: 49%;
+  padding-top: 2px;
+  background-color: black;
+  flex-direction: row;
+  align-items: center;
+}
+.call a {
+  color: white;
+}
+
+.knok-summary {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: grey;
+  align-items: center;
+  font-size: 18px;
+  margin: 3px 5px 0 5px;
+  color: white;
+  padding: 4px 0px;
+  width: 49%;
+}
+
+.button-tel {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+.price {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.caption-price {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 770px) {
+  .cont_dim {
+    line-height: 1;
+    text-align: left;
+    width: 100%;
+  }
+  .knok-summary {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: grey;
+    align-items: center;
+    font-size: 10px;
+    margin: 4px 5px 0 5px;
+    color: white;
+    padding: 6px 0px;
+    width: 49%;
+  }
+  .advantages {
+    display: flex;
+  }
+  .advantages .advantages_item {
+    margin-bottom: 10px;
+    max-width: 100%;
+    margin: 10px 10px;
+    padding: 10px 10px 0;
+  }
+  .vozgoranie {
+    width: 100%;
+  }
+  .tel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .tel_nomer {
+    align-self: center;
+    margin-top: 5px;
+  }
+  .tel_text {
+    text-transform: lowercase;
+    align-self: center;
+    font-size: 22px;
+  }
+  .tel_nomer img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+}
