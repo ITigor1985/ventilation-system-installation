@@ -242,7 +242,6 @@ TH {
   .kondition {
     display: block;
     max-width: 100%;
-    margin: 5px;
   }
   .knok-summary {
     display: flex;
