@@ -129,6 +129,19 @@ TH {
   color: black;
 }
 
+.text-or-image {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.text-project,
+.kondition {
+  display: block;
+  max-width: 48%;
+  margin: 5px;
+}
+
 .table-container {
   width: 100%;
   overflow-y: auto;
@@ -224,6 +237,12 @@ TH {
     line-height: 1;
     text-align: left;
     width: 100%;
+  }
+  .text-project,
+  .kondition {
+    display: block;
+    max-width: 100%;
+    margin: 5px;
   }
   .knok-summary {
     display: flex;
